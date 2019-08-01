@@ -4,7 +4,7 @@
 namespace Syafiqq\Passport;
 
 
-class Passport
+class Passport extends \Laravel\Passport\Passport
 {
 
 }
