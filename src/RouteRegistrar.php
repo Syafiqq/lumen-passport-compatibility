@@ -63,7 +63,7 @@ class RouteRegistrar
     public function forAccessTokens()
     {
         $this->router->post('/token', [
-            'uses' => $this->prefix('\AccessTokenController@issueToken'),
+            'uses' => $this->prefix('AccessTokenController@issueToken'),
             'as' => 'passport.token',
         ]);
 
