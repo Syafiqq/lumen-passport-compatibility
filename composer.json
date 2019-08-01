@@ -1,5 +1,5 @@
 {
-    "name": "syafiqq/lumen-framework-extended",
+    "name": "syafiqq/lumen-passport-compatibility",
     "description": "Lumen - Passport Compatibility Patches.",
     "keywords": ["lumen", "passport", "oauth"],
     "type": "library",
