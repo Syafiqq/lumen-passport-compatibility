@@ -33,6 +33,7 @@ class Passport extends \Laravel\Passport\Passport
         Route::group(Arr::except($options, ['namespace']), function (Router $router) use ($callback, $options) {
             $routes = new RouteRegistrar($router, $options);
             $routes->all();
+            $callback($routes);
         });
     }
 }
